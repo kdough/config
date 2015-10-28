@@ -1,0 +1,5 @@
+#export PROMPT="[%m %1/]%> "
+#export PROMPT='%d%>:%{\e[0m%}> '
+export PROMPT="%m:%~%1/> "
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
